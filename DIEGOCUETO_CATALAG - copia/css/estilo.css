@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.cabecera{
+   background:url(../img/124732-ferreteria-urbano-banner.jpg) 100% fixed;
+    height: 450px;
+    background-repeat: repeat-y;
+    background-position: center;
+    
+}
+
+h1{
+    font-family: cursive;
+    text-align: center;
+}
+h2{
+    color: #1058df;
+    text-align: center;
+    font-size: 15px
+}
+h3{
+    text-align: center;
+}
+#contenedor{
+    background: #F5F5FC;
+    width: 100%;
+    height:auto;
+    margin-top: 60px;
+}
+#interno-producto{
+    width: 20%;
+    height: 350px;
+    float: left;
+    margin: 55px 30px;
+    padding-top: 40px 40px;
+    box-shadow: 1px 10px 70px;
+    border-radius: 10px;
+  
+  
+}
+img{
+    width: 80%;
+    height: 150px;
+    margin-left: 40px;
+    border-radius: 50px;
+    margin: 20px;
+   
+}
+.precio{
+    color: #1058df;
+    font-family: cursive;
+    font-size: 30px;
+    margin-left: 40px;
+   
+}
+.btn{
+    margin-left: 42px;
+    margin-top: 8px;
+}
+.tabla{
+    margin-top: 110%;
+    width: 100%;
+    height: auto;
+    text-align: center;   
+}
+.tabla-interno{
+    width: 90%;
+}
+td{
+    padding: 10px 10px;
+    border: 1px solid red; 
+    background-color:  #1058df;
+    color: #F5F5FC;
+}
+.btn{
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+ 
+}
+.btn:hover{
+    background-color:  #1058df;
+    color: #F5F5FC;
+    
+}
+input{
+    border: none;
+}
+.Disponible{
+    color: red;
+    margin: 10px;
+}
+
+

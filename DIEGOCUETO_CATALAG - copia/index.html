@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Catalogo</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script type="text/javascript" src="js/dosminuir.js"></script>
+    <script type="text/javascript" src="js/json.js"></script>
+
+
+
+</head>
+<body>
+  
+  <header class="cabecera"></header>
+  
+   
+   <section class="contenido">
+    
+       <article id="interno-producto">
+           <h2 id="producto" >Martillo Sencillo</h2>
+           <img src="img/1.jpg"  id="producto">
+           
+           <span id="producto" class="precio "><sup>$</sup>300 <sub>/.00-MXN</sub></span>
+           <span  class="Disponible">Disponible:
+             
+           <form action="" class="precio" name="formulario1"><input type="text"  name="cantidad1" size="1"  value="3" readonly id="can" class="dis">
+           <input type="button"  class="btn" onclick="guardar(0); formulario1.cantidad1.value--; validacantidad(this.form)"  id="botonde" value="Agregar carrito">
+          </form>
+
+                   
+          </span>
+        
+      
+       </article>
+       
+       
+       <article id="interno-producto" >
+          <h2 id="producto"> Martillo</h2>
+           <img src="img/2.jpg" alt="" id="producto">
+           
+             <span id="producto" class="precio"><sup>$</sup>200<sub>/.00-MXN</sub></span>
+             <span id="producto"class="Disponible">Disponible:
+              
+                <form action="" class="precio" name="formulario2"><input type="text"  name="cantidad2" size="1"  value="2" readonly>
+                  <input type="button"  class="btn" onclick="guardar1(1); formulario2.cantidad2.value--; validacantidad1(this.form)"  id="boton2" value="Agregar carrito">
+                 </form>
+
+             </span>
+           
+              
+       </article>
+     
+        <article id="interno-producto">
+          <h2 id="producto">Martillo de acero</h2>
+           <img src="img/2.jpg" alt=""id="producto">
+           
+             <span id="$250" class="precio"><sup>$</sup>250 <sub>/.00-MXN</sub></span>
+              <span id="producto" class="Disponible">Disponible:
+
+
+                  <form action="" class="precio" name="formulario3"><input type="text"  name="cantidad3" size="1"  value="4" readonly>
+                    <input type="button"  class="btn" onclick="guardar2(2); formulario3.cantidad3.value--; validacantidad3(this.form)"  id="boton3" value="Agregar carrito">
+                   </form>
+  
+
+              </span>
+           
+           
+       </article>
+  
+        <article id="interno-producto">
+          <h2 id="producto">Motosierra-Stanley</h2>
+           <img src="img/4.jpg" alt="" id="producto">
+           
+             <span id="producto" class="precio"><sup>$</sup>400 <sub>/.00-MXN</sub></span>
+              <span id="producto" class="Disponible">Disponible:
+
+                  <form action="" class="precio" name="formulario4"><input type="text"  name="cantidad4" size="1"  value="1" readonly>
+                    <input type="button"  class="btn" onclick="guardar3(3); formulario4.cantidad4.value--; validacantidad4(this.form)"  id="boton4" value="Agregar carrito">
+                   </form>
+                   </span>
+           
+       </article>
+       
+        <article id="interno-producto">
+          <h2 id="producto">Garden-machete</h2>
+           <img src="img/garden-machete.png" alt="" id="producto">
+             <span id="producto" class="precio"><sup>$</sup>100 <sub>/.00-MXN</sub></span>
+              <span id="producto" class="Disponible">Disponible:
+                  <form action="" class="precio" name="formulario5"><input type="text"  name="cantidad5" size="1"  value="1" readonly>
+                    <input type="button"  class="btn" onclick="guardar4(4); formulario5.cantidad5.value--; validacantidad5(this.form)"  id="boton5" value="Agregar carrito">
+                   </form>
+              </span>
+           
+       </article>
+    
+       <article id="interno-producto">
+          <h2 id="producto">Motosierra-de-gasolina-Poda</h2>
+           <img src="img/MOTOSIERA_de_gasolina_Poda.jpg" alt="" id="producto">
+             <span id="producto" class="precio"><sup>$</sup>500 <sub>/.00-MXN</sub></span>
+              <span id="producto"class="Disponible">Disponible:
+                  <form action="" class="precio" name="formulario6"><input type="text"  name="cantidad6" size="1"  value="1" readonly>
+                    <input type="button"  class="btn" onclick="guardar5(5); formulario6.cantidad6.value--; validacantidad6(this.form)"  id="boton6" value="Agregar carrito">
+                   </form>
+              </span>
+           
+       </article>
+       
+        <article id="interno-producto">
+          <h2 id="producto">Motosierra-STIHL</h2>
+           <img src="img/motosierra_STIHL.jpg" alt="" id="producto">
+             <span id="producto"class="precio"><sup>$</sup>300 <sub>/.00-MXN</sub></span>
+              <span id="producto" class="Disponible">Disponible:</span>
+              <form action="" class="precio" name="formulario7"><input type="text"  name="cantidad7" size="1"  value="1" readonly>
+                <input type="button"  class="btn" onclick="guardar6(6); formulario7.cantidad7.value--; validacantidad7(this.form)"  id="boton7" value="Agregar carrito">
+               </form>
+
+       </article>
+       
+        <article id="interno-producto">
+          <h2 id="producto">Pala-coa-mangoDeMadera</h2>
+           <img src="img/pala_coa_mangoDeMadera.jpg" alt="" id="producto">
+             <span id="producto" class="precio"><sup>$</sup>300 <sub>/.00-MXN</sub></span>
+              <span id="producto" class="Disponible">Disponible:
+                  <form action="" class="precio" name="formulario8"><input type="text"  name="cantidad8" size="1"  value="1" readonly>
+                    <input type="button"  class="btn" onclick="guardar7(7); formulario8.cantidad8.value--; validacantidad8(this.form)"  id="boton8" value="Agregar carrito">
+                   </form>
+
+              </span>
+           
+       
+       </article>
+       
+        <article id="interno-producto">
+          <h2 id="producto">Serrucho-de-poda-plegable</h2>
+           <img src="img/serrucho_de_poda_plegable.jpg" alt="" id="producto">
+             <span id="producto" class="precio"><sup>$</sup>300 <sub>/.00-MXN</sub></span>
+              <span id="producto" class="Disponible">Disponible:
+
+                  <form action="" class="precio" name="formulario9"><input type="text"  name="cantidad9" size="1"  value="1" readonly>
+                    <input type="button"  class="btn" onclick="guardar8(8); formulario9.cantidad9.value--; validacantidad9(this.form)"  id="boton9" value="Agregar carrito">
+                   </form>
+
+              </span>
+           
+       </article>
+       
+        <article id="interno-producto">
+          <h2 id="producto">Tramontina-machete</h2>
+           <img src="img/tramontina-machete.jpg" alt="" id="producto">
+             <span id="producto" class="precio"><sup>$</sup>300 <sub>/.00-MXN</sub></span>
+              <span id="producto" class="Disponible">Disponible:</span>
+           
+              <form action="" class="precio" name="formulario10"><input type="text"  name="cantidad10" size="1"  value="1" readonly>
+                <input type="button"  class="btn" onclick="guardar9(9); formulario10.cantidad10.value--; validacantidad10(this.form)"  id="boton10" value="Agregar carrito">
+               </form>
+       </article>
+    
+
+    
+   </section>
+    
+   <section  class="tabla">
+   <h3>Carritos De Compras</h3>
+   <table class="tabla-interno">
+      <tr>
+         <td>Imagen</td>
+         <td>Nombre Del Producto</td>
+         <td>Cantidad</td>
+         <td>Precio</td>
+         <td>Sub-Total</td>  
+         <td>Iva Icluido</td>  
+         <td>Total</td>  
+      </tr>
+
+ 
+      <tr id="tab1" >
+     
+    <button class="suma">sumar</button>
+    <button class="resta">restar</button>
+       
+      
+      </tr>
+      <tr id="tab2">
+        <button class="suma1">+</button>
+        <button class="resta1">-</button>
+      </tr>
+      <tr id="tab3">
+        <button class="suma1">+</button>
+        <button class="resta1">-</button>
+      </tr>
+      <tr id="tab4">
+        <button class="suma1">+</button>
+        <button class="resta1">-</button>
+      </tr>
+      <tr id="tab5">
+        <button class="suma1">+</button>
+        <button class="resta1">-</button>
+      </tr>
+      <tr id="tab6">
+        <button class="suma1">+</button>
+        <button class="resta1">-</button>
+      </tr>
+      <tr id="tab7">
+        <button class="suma1">+</button>
+        <button class="resta1">-</button>
+      </tr>
+      <tr id="tab8">
+        <button class="suma1">s</button>
+        <button class="resta1">r</button>
+      </tr>
+      <tr id="tab9">
+        <button class="suma1">+</button>
+        <button class="resta1">-</button>
+      </tr>
+      <tr id="tab10">
+        <button class="suma1">+</button>
+        <button class="resta1">-</button>
+      </tr>
+ 
+ 
+       
+   </table>
+   
+
+    </section>
+
+    
+ 
+</body>
+</html>
